@@ -1,7 +1,7 @@
 <?php
 if($_GET['s']!=''){
 $replace = array('+',' ');
-$urlredirect = get_settings('home') . '/irs/' . str_replace($replace,'-',$_GET['s']) . '/';
+$urlredirect = get_settings('home') . '/sri/' . str_replace($replace,'-',$_GET['s']) . '/';
 header("HTTP/1.1 301 Moved Permanently");
 header( "Location: $urlredirect" );
 }

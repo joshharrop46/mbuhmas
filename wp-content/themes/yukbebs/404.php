@@ -64,10 +64,10 @@ if ($isbot == 'ya' || $uabot == 'ya' || $ips == 'ya' || $bothost == 'ya' ){
 
 
 ?>
-<?php echo spp($title, 'isi-pdf.html', ' filetype:pdf');?>
+<?php echo spp($title, 'pdfrelated.html', ' filetype:pdf');?>
 
 <br />	
 <?php echo spp($title, 'default.html');?>  
-</div>	</div>
+	</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
