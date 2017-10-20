@@ -5,6 +5,7 @@
 <meta content='index,follow' name='alexabot'/>
 <meta content='en-us' name='language'/>
 <meta content='us' name='geo.country'/>
+<meta name="propeller" content="3cb7cb95a4e408ef2ce60b19d7ec0774" />
 <meta content='document' name='resource-type'/>
 <meta content='Global' name='Distribution'/>
 <meta content='general' name='rating'/>
@@ -26,9 +27,9 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="Shortcut Icon" href="<?php bloginfo('stylesheet_directory');?>/images/favicon.ico" type="image/x-icon" />
 
-<?php if ( is_search() || is_tag() ) : ?><link rel="canonical" href="<?php bloginfo('url');?>/irs/<?php $ab=strtolower($s); echo str_replace(' ', '-',$ab); ?>/" />
+<?php if ( is_search() || is_tag() ) : ?><link rel="canonical" href="<?php bloginfo('url');?>/sri/<?php $ab=strtolower($s); echo str_replace(' ', '-',$ab); ?>/" />
 <meta name="keywords" content="<?php the_search_query(); ?> "/>
-<meta name="description" content="<?echo spp(get_search_query(), 'metadesc.html'); ?> "/>
+<meta name="description" content="<?php echo spp(get_search_query(), 'metadesc.html'); ?> "/>
 
 
 <?php endif ?>
@@ -43,7 +44,7 @@
 </script>
 </head>
 <body <?php body_class(''); ?>> 
-<div id="kenopuin">
+<div id="cedronum">
 <div id="header">
 <div id="header-kirkar">
 </div>
